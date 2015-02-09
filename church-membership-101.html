@@ -126,10 +126,11 @@
       display: inline-block;
     }
     .light {
-      color:#808080
+      color:#808080;
     }
     em {
-      color:#333
+      font-weight: bold;
+      color:#808080;
     }
     strong {
       color:#666;
@@ -138,7 +139,13 @@
       text-align:center
     }
     hr {
-      color: #555;
+      border: 0;
+      height: 1px;
+      background: #666;
+      background-image: -webkit-linear-gradient(left, #ccc, #666, #666, #ccc);
+      background-image: -moz-linear-gradient(left, #ccc, #666, #666, #ccc);
+      background-image: -ms-linear-gradient(left, #ccc, #666, #666, #ccc);
+      background-image: -o-linear-gradient(left, #ccc, #666, #666, #ccc);
       margin: 2.5rem 0;
     }
     table {
