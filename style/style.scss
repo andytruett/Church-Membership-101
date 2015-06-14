@@ -1,0 +1,274 @@
+//      ##                                           ##
+//      ##                                           ##
+//                                                   ##
+//    ####     ### ##   ######    #####   ## ###   ######    #####
+//      ##     ## # ##  ##   ##  ##   ##  ###        ##     ##
+//      ##     ## # ##  ##   ##  ##   ##  ##         ##      ####
+//      ##     ## # ##  ##   ##  ##   ##  ##         ##         ##
+//    ######   ##   ##  ######    #####   ##          ###   #####
+//                      ##
+//                      ##
+
+@import 'normalize';
+@import 'typebase';
+
+
+
+//    ##                              ##
+//    ##                              ##
+//    ##                              ##
+//    ######    #####   ## ###    ######   #####   ## ###
+//    ##   ##  ##   ##  ###      ##   ##  ##   ##  ###
+//    ##   ##  ##   ##  ##       ##   ##  #######  ##
+//    ##   ##  ##   ##  ##       ##   ##  ##       ##
+//    ######    #####   ##        ######   #####   ##
+//
+//             ##
+//             ##
+//             ##
+//             ######    #####   ##  ##
+//    #######  ##   ##  ##   ##   ####
+//             ##   ##  ##   ##    ##
+//             ##   ##  ##   ##   ####
+//             ######    #####   ##  ##
+//
+//
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+//    ##         ##               ###
+//    ##         ##                ##
+//    ##         ##                ##
+//    ######   ######   ### ##     ##
+//    ##   ##    ##     ## # ##    ##
+//    ##   ##    ##     ## # ##    ##
+//    ##   ##    ##     ## # ##    ##
+//    ##   ##     ###   ##   ##   ####
+//
+//
+
+html {
+  font-family: Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  color: #444;
+
+  -webkit-font-smoothing: antialiased;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+
+//    ##                     ##
+//    ##                     ##
+//    ##                     ##
+//    ######    #####    ######  ##  ##
+//    ##   ##  ##   ##  ##   ##  ##  ##
+//    ##   ##  ##   ##  ##   ##  ##  ##
+//    ##   ##  ##   ##  ##   ##  ##  ##
+//    ######    #####    ######   #####
+//                                   ##
+//                                ####
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+//         ##    ##
+//         ##    ##
+//         ##
+//     ######  ####     ### ##    #####
+//    ##   ##    ##      ## #    ##
+//    ##   ##    ##      ## #     ####
+//    ##   ##    ##       ##         ##
+//     ######  ######     ##     #####
+//
+//
+.main {
+  padding: 1rem 1rem 2rem 3rem;
+  float: right;
+  max-width: 760px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 1rem;
+
+  width: 200px;
+  padding-left: 2.5em;
+  * {
+    margin-left: -1.5rem;
+  }
+}
+
+
+//              ###      ###                ##     ##
+//               ##       ##                ##     ##
+//               ##       ##                ##     ##
+//     ######    ##       ##              ######   ######    #####
+//    ##   ##    ##       ##                ##     ##   ##  ##   ##
+//    ##   ##    ##       ##                ##     ##   ##  #######
+//    ##  ###    ##       ##                ##     ##   ##  ##
+//     ### ##   ####     ####                ###   ##   ##   #####
+//
+//
+//     ###       ##              ##
+//      ##       ##              ##
+//      ##                       ##
+//      ##     ####     ## ###   ##  ##    #####
+//      ##       ##     ###  ##  ## ##    ##
+//      ##       ##     ##   ##  ####      ####
+//      ##       ##     ##   ##  ## ##        ##
+//     ####    ######   ##   ##  ##  ##   #####
+//
+//
+a:link{
+  text-decoration: none;
+  color: #80c24c;
+}
+a:visited{
+  color: #80c24c;
+}
+a:hover,
+a:focus{
+  text-decoration: underline;
+  color: #80c24c;
+}
+a:active{
+  color: #80c24c
+}
+
+//
+//
+//
+//    ######    ######  ## ###    ######   #####
+//    ##   ##  ##   ##  ###      ##   ##  ##
+//    ##   ##  ##   ##  ##       ##   ##   ####
+//    ##   ##  ##  ###  ##       ##  ###      ##
+//    ######    ### ##  ##        ### ##  #####
+//    ##
+//    ##
+p {
+  line-height: 1.5rem;
+  margin: 1.5rem 0;
+  padding: 0 1.5rem;
+}
+
+//     ###       ##                ##
+//      ##       ##                ##
+//      ##                         ##
+//      ##     ####      #####   ######    #####
+//      ##       ##     ##         ##     ##
+//      ##       ##      ####      ##      ####
+//      ##       ##         ##     ##         ##
+//     ####    ######   #####       ###   #####
+//
+//
+ul,
+ol {
+  margin: .5rem 0 1.5rem 1.5rem;
+  padding: 0;
+}
+ul {
+  list-style-type: circle;
+  margin-left: 3rem;
+}
+ol {
+  display: table;
+  margin-left: 1.5rem;
+  list-style-type: none;
+  counter-reset: item
+}
+ol li {
+  display: table-row
+}
+ol li:before {
+  display: table-cell;
+  padding-right: 1rem;
+  content: counter(item) "  ";
+  counter-increment: item;
+  text-align: right
+}
+
+li {
+  line-height: 1.5rem;
+  margin-left: -.5rem;
+  padding-left: .5rem;
+  margin-bottom: .25rem;
+}
+
+
+//    ##          ##               ##
+//    ##         ##                 ##
+//    ##         ##                 ##
+//    ######    ##      ## ###       ##
+//    ##   ##   ##      ###  ##      ##
+//    ##   ##   ##      ##   ##      ##
+//    ##   ##    ##     ##   ##     ##
+//    ##   ##    ##     ##   ##     ##
+//                ##               ##
+//
+
+h1 {
+  font-size: 2.228rem;
+  line-height: 2.5rem;
+  margin-top: .5rem;
+  color: #80c24c
+}
+h2 {
+  font-size: 1.414rem;
+  line-height: 1.75rem;
+  color: #80c24c
+}
+h3 {
+  font-size: 1.1rem;
+  line-height: 1.25rem;
+  color: #80c24c;
+}
+h4 {
+  font-weight: 700;
+  color: #808080;
+  font-style: italic;
+}
+
+//               ##       ##      ###
+//               ##       ##       ##
+//               ##                ##
+//    ##   ##  ######   ####       ##
+//    ##   ##    ##       ##       ##
+//    ##   ##    ##       ##       ##
+//    ##  ###    ##       ##       ##
+//     ### ##     ###   ######    ####
+//
+//
+.light {
+  color: #808080;
+}
+em {
+  font-weight: bold;
+  color: #808080;
+}
+strong {
+  color: #666;
+}
+.center {
+  text-align: center
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: #666;
+  background-image: -webkit-linear-gradient(left, #ccc, #666, #666, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #666, #666, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #666, #666, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #666, #666, #ccc);
+  margin: 2.5rem 0;
+}

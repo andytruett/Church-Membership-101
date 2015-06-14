@@ -1,0 +1,510 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, _normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 19, _normalize.scss */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 37, _normalize.scss */
+footer,
+header,
+nav {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 88, _normalize.scss */
+a {
+  background: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 96, _normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 117, _normalize.scss */
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 134, _normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 183, _normalize.scss */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/**
+ * Contain overflow in all browsers.
+ */
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 252, _normalize.scss */
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 277, _normalize.scss */
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 292, _normalize.scss */
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 311, _normalize.scss */
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 321, _normalize.scss */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 334, _normalize.scss */
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/**
+ * Define consistent border, margin, and padding.
+ */
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 398, _normalize.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 407, _normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 418, _normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 423, _normalize.scss */
+td,
+th {
+  padding: 0; }
+
+/* line 72, _typebase.scss */
+html {
+  font-size: 125%;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300; }
+
+/* line 102, _typebase.scss */
+p {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0; }
+
+/* line 108, _typebase.scss */
+ul,
+ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+  /* line 113, _typebase.scss */
+  ul li,
+  ol li {
+    line-height: 1.5rem; }
+  /* line 117, _typebase.scss */
+  ul ul,
+  ul ol,
+  ol ul,
+  ol ol {
+    margin-top: 0;
+    margin-bottom: 0; }
+
+/* line 124, _typebase.scss */
+blockquote {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+/* line 141, _typebase.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+  font-weight: 300; }
+
+/* line 153, _typebase.scss */
+h1 {
+  font-size: 4.242rem;
+  line-height: 4.5rem;
+  margin-top: 3rem; }
+
+/* line 159, _typebase.scss */
+h2 {
+  font-size: 2.828rem;
+  line-height: 3rem;
+  margin-top: 3rem; }
+
+/* line 165, _typebase.scss */
+h3 {
+  font-size: 1.414rem; }
+
+/* line 169, _typebase.scss */
+h4 {
+  font-size: 0.707rem; }
+
+/* line 173, _typebase.scss */
+h5 {
+  font-size: 0.47133rem; }
+
+/* line 177, _typebase.scss */
+h6 {
+  font-size: 0.3535rem; }
+
+/* line 191, _typebase.scss */
+table {
+  margin-top: 1.5rem;
+  border-spacing: 0;
+  border-collapse: collapse; }
+  /* line 196, _typebase.scss */
+  table td,
+  table th {
+    padding: 0;
+    line-height: 30; }
+
+/* line 214, _typebase.scss */
+code {
+  vertical-align: bottom; }
+
+/* line 240, _typebase.scss */
+.lead {
+  font-size: 1.414rem; }
+
+/* line 275, _typebase.scss */
+.hug {
+  margin-top: 0; }
+
+/* line 37, style.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 40, style.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+/* line 57, style.scss */
+html {
+  font-family: Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 78, style.scss */
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0; }
+
+/* line 95, style.scss */
+.main {
+  padding: 1rem 1rem 2rem 3rem;
+  float: right;
+  max-width: 760px; }
+
+/* line 101, style.scss */
+.sidebar {
+  position: fixed;
+  top: 1rem;
+  width: 200px;
+  padding-left: 2.5em; }
+  /* line 107, style.scss */
+  .sidebar * {
+    margin-left: -1.5rem; }
+
+/* line 133, style.scss */
+a:link {
+  text-decoration: none;
+  color: #80c24c; }
+
+/* line 137, style.scss */
+a:visited {
+  color: #80c24c; }
+
+/* line 140, style.scss */
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: #80c24c; }
+
+/* line 145, style.scss */
+a:active {
+  color: #80c24c; }
+
+/* line 159, style.scss */
+p {
+  line-height: 1.5rem;
+  margin: 1.5rem 0;
+  padding: 0 1.5rem; }
+
+/* line 175, style.scss */
+ul,
+ol {
+  margin: .5rem 0 1.5rem 1.5rem;
+  padding: 0; }
+
+/* line 180, style.scss */
+ul {
+  list-style-type: circle;
+  margin-left: 3rem; }
+
+/* line 184, style.scss */
+ol {
+  display: table;
+  margin-left: 1.5rem;
+  list-style-type: none;
+  counter-reset: item; }
+
+/* line 190, style.scss */
+ol li {
+  display: table-row; }
+
+/* line 193, style.scss */
+ol li:before {
+  display: table-cell;
+  padding-right: 1rem;
+  content: counter(item) "  ";
+  counter-increment: item;
+  text-align: right; }
+
+/* line 201, style.scss */
+li {
+  line-height: 1.5rem;
+  margin-left: -.5rem;
+  padding-left: .5rem;
+  margin-bottom: .25rem; }
+
+/* line 220, style.scss */
+h1 {
+  font-size: 2.228rem;
+  line-height: 2.5rem;
+  margin-top: .5rem;
+  color: #80c24c; }
+
+/* line 226, style.scss */
+h2 {
+  font-size: 1.414rem;
+  line-height: 1.75rem;
+  color: #80c24c; }
+
+/* line 231, style.scss */
+h3 {
+  font-size: 1.1rem;
+  line-height: 1.25rem;
+  color: #80c24c; }
+
+/* line 236, style.scss */
+h4 {
+  font-weight: 700;
+  color: #808080;
+  font-style: italic; }
+
+/* line 252, style.scss */
+.light {
+  color: #808080; }
+
+/* line 255, style.scss */
+em {
+  font-weight: bold;
+  color: #808080; }
+
+/* line 259, style.scss */
+strong {
+  color: #666; }
+
+/* line 262, style.scss */
+.center {
+  text-align: center; }
+
+/* line 265, style.scss */
+hr {
+  border: 0;
+  height: 1px;
+  background: #666;
+  background-image: -webkit-linear-gradient(left, #ccc, #666, #666, #ccc);
+  margin: 2.5rem 0; }
+
+/*# sourceMappingURL=style.css.map */
