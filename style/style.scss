@@ -93,22 +93,13 @@ body {
 //
 //
 .main {
-  padding: 1rem 1rem 2rem 3rem;
-  float: right;
-  max-width: 760px;
+  padding: 1rem;
 }
 
-.sidebar {
-  position: fixed;
-  top: 1rem;
-
-  width: 200px;
-  padding-left: 2.5em;
-  * {
-    margin-left: -1.5rem;
-  }
+.toc {
+  max-width: 250px;
+  margin: 0 auto;
 }
-
 
 //              ###      ###                ##     ##
 //               ##       ##                ##     ##
@@ -159,7 +150,6 @@ a:active{
 p {
   line-height: 1.5rem;
   margin: 1.5rem 0;
-  padding: 0 1.5rem;
 }
 
 //     ###       ##                ##
@@ -172,30 +162,40 @@ p {
 //     ####    ######   #####       ###   #####
 //
 //
+dl,
 ul,
 ol {
-  margin: .5rem 0 1.5rem 1.5rem;
+  margin: .5rem 0 1.5rem;
   padding: 0;
 }
+
 ul {
   list-style-type: circle;
   margin-left: 3rem;
 }
+
+dl,
 ol {
-  display: table;
-  margin-left: 1.5rem;
   list-style-type: none;
-  counter-reset: item
-}
-ol li {
-  display: table-row
-}
-ol li:before {
-  display: table-cell;
-  padding-right: 1rem;
-  content: counter(item) "  ";
-  counter-increment: item;
-  text-align: right
+  counter-reset: item;
+
+  dt {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+  }
+
+  dd,li {
+    display: table-row;
+    max-width: 75%;
+
+    &:before {
+      display: table-cell;
+      padding-right: .5rem;
+      content: counter(item) "  ";
+      counter-increment: item;
+      text-align: right;
+    }
+  }
 }
 
 li {
@@ -271,4 +271,8 @@ hr {
   background-image: -ms-linear-gradient(left, #ccc, #666, #666, #ccc);
   background-image: -o-linear-gradient(left, #ccc, #666, #666, #ccc);
   margin: 2.5rem 0;
+}
+
+.arrow {
+  margin-bottom: .25rem;
 }
